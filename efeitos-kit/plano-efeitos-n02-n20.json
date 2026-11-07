@@ -1,22 +1,486 @@
 {
  "_obs": "tempos em segundos do final.mp4 atual (legendas.srt); converter para frames x30. 'checklist' = trocar a lista existente por lista estilo checklist (mesmos itens e tempos) e terminar no inicio do CTA.",
- "n02": [{"tipo":"checklist","fim_s":42.2}],
- "n03": [{"tipo":"comentario","texto":"Onde entra o investidor numa obra?","s0":0.1,"s1":4.0},{"tipo":"sticky","itens":[["Nenhuma ligação",19.4]],"s1":22.2}],
- "n04": [{"tipo":"comentario","texto":"Como eu acompanho a obra?","s0":0.1,"s1":3.5},{"tipo":"checklist","fim_s":28.6}],
- "n05": [{"tipo":"sticky","itens":[["Negativo",25.0],["Negativo",25.5],["Negativo",26.0]],"s1":27.6}],
- "n06": [{"tipo":"comentario","texto":"Como é a primeira conversa?","s0":0.1,"s1":3.8},{"tipo":"checklist_novo","itens":[["Triagem com o time comercial",4.6],["Reunião com o Fábio",18.1]],"fim_s":22.0}],
- "n07": [{"tipo":"sticky","itens":[["Projeto bonito",13.3],["é consequência",14.5]],"s1":16.4}],
- "n08": [{"tipo":"sticky","itens":[["Cimento queimado",15.7],["bem executado",17.6],["= luxo",20.2]],"s1":21.5}],
- "n09": [{"tipo":"sticky","itens":[["17 anos",0.1]],"s1":3.0},{"tipo":"sticky","itens":[["Obras pesadas",17.0],["Varejo",19.6],["Alto padrão",20.8]],"s1":23.0}],
- "n10": [{"tipo":"sticky","itens":[["Eu não sei nada",6.4]],"s1":9.0}],
- "n11": [{"tipo":"checklist_novo","itens":[["Confiou demais",16.2],["Não olhou os detalhes",19.4],["Achou que jamais erraria",21.1]],"fim_s":24.1}],
- "n12": [{"tipo":"sticky","itens":[["100%",10.8]],"s1":13.5},{"tipo":"sticky","itens":[["Meio tempo não dá",23.6]],"s1":25.6}],
- "n13": [{"tipo":"sticky","itens":[["Produz",16.7],["e mede",17.6]],"s1":21.5}],
- "n14": [{"tipo":"sticky","itens":[["Segunda?",23.1],["Terça?",27.2],["Quarta?",28.0]],"s1":30.5}],
- "n15": [{"tipo":"sticky","itens":[["Sumiu",13.2]],"s1":16.0},{"tipo":"checklist","fim_s":25.2}],
- "n16": [{"tipo":"comentario","texto":"Imóvel na planta ou pronto?","s0":4.9,"s1":7.2},{"tipo":"comentario","texto":"Fundo imobiliário ou planta?","s0":8.2,"s1":10.4},{"tipo":"comentario","texto":"Planta ou construir pra vender?","s0":12.9,"s1":15.0},{"tipo":"comentario","texto":"Construir pra vender ou incorporação?","s0":16.0,"s1":18.3},{"tipo":"comentario","texto":"Incorporação ou terreno pra valorizar?","s0":19.1,"s1":21.1}],
- "n17": [{"tipo":"checklist","fim_s":33.8}],
- "n18": [{"tipo":"doodle","forma":"circulo","s0":0.1,"s1":3.6,"obs":"posicionar em volta da casa olhando o frame em 0.5 s"},{"tipo":"doodle","forma":"seta","s0":0.4,"s1":3.6,"obs":"seta apontando para a casa, sem cobrir o rosto"}],
- "n19": [{"tipo":"comentario","texto":"Como uma obra gera valor antes de ficar pronta?","s0":0.1,"s1":3.3},{"tipo":"checklist","fim_s":38.1}],
- "n20": [{"tipo":"comentario","texto":"Vou ter que cuidar da obra?","s0":0.1,"s1":4.0},{"tipo":"sticky","itens":[["Telefone não toca",9.4]],"s1":12.0}]
+ "n02": {
+  "efeitos": [
+   {
+    "tipo": "checklist",
+    "fim_s": 42.2
+   }
+  ],
+  "arco": {
+   "abertura": [
+    14.7,
+    19.6
+   ]
+  }
+ },
+ "n03": {
+  "efeitos": [
+   {
+    "tipo": "comentario",
+    "texto": "Onde entra o investidor numa obra?",
+    "s0": 0.1,
+    "s1": 4.0
+   },
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Nenhuma ligação",
+      19.4
+     ]
+    ],
+    "s1": 22.2
+   }
+  ],
+  "arco": {
+   "abertura": [
+    18.5,
+    22.2
+   ]
+  }
+ },
+ "n04": {
+  "efeitos": [
+   {
+    "tipo": "comentario",
+    "texto": "Como eu acompanho a obra?",
+    "s0": 0.1,
+    "s1": 3.5
+   },
+   {
+    "tipo": "checklist",
+    "fim_s": 28.6
+   }
+  ],
+  "arco": {
+   "abertura": [
+    27.7,
+    30.3
+   ]
+  }
+ },
+ "n05": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Negativo",
+      25.0
+     ],
+     [
+      "Negativo",
+      25.5
+     ],
+     [
+      "Negativo",
+      26.0
+     ]
+    ],
+    "s1": 27.6
+   }
+  ],
+  "arco": {
+   "abertura": [
+    22.5,
+    26.7
+   ]
+  }
+ },
+ "n06": {
+  "efeitos": [
+   {
+    "tipo": "comentario",
+    "texto": "Como é a primeira conversa?",
+    "s0": 0.1,
+    "s1": 3.8
+   },
+   {
+    "tipo": "checklist_novo",
+    "itens": [
+     [
+      "Triagem com o time comercial",
+      4.6
+     ],
+     [
+      "Reunião com o Fábio",
+      18.1
+     ]
+    ],
+    "fim_s": 22.0
+   }
+  ],
+  "arco": {
+   "obs": "sem abertura; a pergunta em comentário é o gancho"
+  }
+ },
+ "n07": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Projeto bonito",
+      13.3
+     ],
+     [
+      "é consequência",
+      14.5
+     ]
+    ],
+    "s1": 16.4
+   }
+  ],
+  "arco": {
+   "abertura": [
+    11.2,
+    13.3
+   ]
+  }
+ },
+ "n08": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Cimento queimado",
+      15.7
+     ],
+     [
+      "bem executado",
+      17.6
+     ],
+     [
+      "= luxo",
+      20.2
+     ]
+    ],
+    "s1": 21.5
+   }
+  ],
+  "arco": {
+   "abertura": [
+    15.7,
+    20.7
+   ]
+  }
+ },
+ "n09": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "17 anos",
+      0.1
+     ]
+    ],
+    "s1": 3.0
+   },
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Obras pesadas",
+      17.0
+     ],
+     [
+      "Varejo",
+      19.6
+     ],
+     [
+      "Alto padrão",
+      20.8
+     ]
+    ],
+    "s1": 23.0
+   }
+  ],
+  "arco": {
+   "abertura": [
+    27.3,
+    33.5
+   ]
+  }
+ },
+ "n10": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Eu não sei nada",
+      6.4
+     ]
+    ],
+    "s1": 9.0
+   }
+  ],
+  "arco": {
+   "corte_inicio": 3.3
+  }
+ },
+ "n11": {
+  "efeitos": [
+   {
+    "tipo": "checklist_novo",
+    "itens": [
+     [
+      "Confiou demais",
+      16.2
+     ],
+     [
+      "Não olhou os detalhes",
+      19.4
+     ],
+     [
+      "Achou que jamais erraria",
+      21.1
+     ]
+    ],
+    "fim_s": 24.1
+   }
+  ],
+  "arco": {
+   "obs": "já começa no pico",
+   "extra": {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Jamais seria enganado",
+      7.8
+     ]
+    ],
+    "s1": 10.7
+   }
+  }
+ },
+ "n12": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "100%",
+      10.8
+     ]
+    ],
+    "s1": 13.5
+   },
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Meio tempo não dá",
+      23.6
+     ]
+    ],
+    "s1": 25.6
+   }
+  ],
+  "arco": {
+   "abertura": [
+    27.4,
+    30.3
+   ]
+  }
+ },
+ "n13": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Produz",
+      16.7
+     ],
+     [
+      "e mede",
+      17.6
+     ]
+    ],
+    "s1": 21.5
+   }
+  ],
+  "arco": {
+   "abertura": [
+    12.0,
+    15.5
+   ]
+  }
+ },
+ "n14": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Segunda?",
+      23.1
+     ],
+     [
+      "Terça?",
+      27.2
+     ],
+     [
+      "Quarta?",
+      28.0
+     ]
+    ],
+    "s1": 30.5
+   }
+  ],
+  "arco": {
+   "obs": "já começa no pico"
+  }
+ },
+ "n15": {
+  "efeitos": [
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Sumiu",
+      13.2
+     ]
+    ],
+    "s1": 16.0
+   },
+   {
+    "tipo": "checklist",
+    "fim_s": 25.2
+   }
+  ],
+  "arco": {
+   "abertura": [
+    12.7,
+    16.2
+   ]
+  }
+ },
+ "n16": {
+  "efeitos": [
+   {
+    "tipo": "comentario",
+    "texto": "Imóvel na planta ou pronto?",
+    "s0": 4.9,
+    "s1": 7.2
+   },
+   {
+    "tipo": "comentario",
+    "texto": "Fundo imobiliário ou planta?",
+    "s0": 8.2,
+    "s1": 10.4
+   },
+   {
+    "tipo": "comentario",
+    "texto": "Planta ou construir pra vender?",
+    "s0": 12.9,
+    "s1": 15.0
+   },
+   {
+    "tipo": "comentario",
+    "texto": "Construir pra vender ou incorporação?",
+    "s0": 16.0,
+    "s1": 18.3
+   },
+   {
+    "tipo": "comentario",
+    "texto": "Incorporação ou terreno pra valorizar?",
+    "s0": 19.1,
+    "s1": 21.1
+   }
+  ],
+  "arco": {
+   "obs": "já começa no pico (perguntas rápidas)"
+  }
+ },
+ "n17": {
+  "efeitos": [
+   {
+    "tipo": "checklist",
+    "fim_s": 33.8
+   }
+  ],
+  "arco": {
+   "extra": {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Análise precipitada",
+      6.9
+     ]
+    ],
+    "s1": 9.0
+   }
+  }
+ },
+ "n18": {
+  "efeitos": [
+   {
+    "tipo": "doodle",
+    "forma": "circulo",
+    "s0": 0.1,
+    "s1": 3.6,
+    "obs": "posicionar em volta da casa olhando o frame em 0.5 s"
+   },
+   {
+    "tipo": "doodle",
+    "forma": "seta",
+    "s0": 0.4,
+    "s1": 3.6,
+    "obs": "seta apontando para a casa, sem cobrir o rosto"
+   }
+  ],
+  "arco": {
+   "obs": "já começa no pico (Tá vendo essa casa aqui?)"
+  }
+ },
+ "n19": {
+  "efeitos": [
+   {
+    "tipo": "comentario",
+    "texto": "Como uma obra gera valor antes de ficar pronta?",
+    "s0": 0.1,
+    "s1": 3.3
+   },
+   {
+    "tipo": "checklist",
+    "fim_s": 38.1
+   }
+  ],
+  "arco": {
+   "obs": "pergunta em comentário é o gancho"
+  }
+ },
+ "n20": {
+  "efeitos": [
+   {
+    "tipo": "comentario",
+    "texto": "Vou ter que cuidar da obra?",
+    "s0": 0.1,
+    "s1": 4.0
+   },
+   {
+    "tipo": "sticky",
+    "itens": [
+     [
+      "Telefone não toca",
+      9.4
+     ]
+    ],
+    "s1": 12.0
+   }
+  ],
+  "arco": {
+   "abertura": [
+    8.3,
+    12.2
+   ],
+   "remover_sticky": true
+  }
+ },
+ "_story_arc": "Story arc moderno (reel de referência do Vitor, 07/11): começar a 70/100 abrindo com o trecho de pico (abertura=[s0,s1] do final atual, copiado para o início como 'cold open', com o gancho em texto por cima; depois o vídeo segue do começo), primeiro pico até 10 s, mini-picos a cada 8-10 s (efeito ou zoom no rosto), sem clímax no meio. corte_inicio = tirar os primeiros N s. Efeitos de pico ficam nos tempos do plano, deslocados pela duração da abertura."
 }
